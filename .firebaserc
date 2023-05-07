@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webker-butor-webshop": {
+      "hosting": {
+        "butor-webshop-final": [
+          "webker-butor-webshop"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webker-butor-webshop"
+  }
+}

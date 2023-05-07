@@ -1,0 +1,18 @@
+<div class="title">Elérhető dohányzó asztalok</div>
+<div class="container">
+  <div class="bed_item">
+    <ul *ngFor="let ct of coffeetables">
+      <div class="item_name">
+        <li>{{ct.name}}</li>
+      </div>
+      <div class="item_image">
+        <li><img src={{ct.photo_url}} width="300px" height="auto" /></li>
+      </div>
+      <div class="item_price">
+        <li>Ár: {{ct.price}}.Ft</li>
+      </div>
+      <button class="item_button">Kosárba rakom</button> 
+    </ul>
+  </div>
+</div>
+

@@ -1,0 +1,25 @@
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.main_context_text{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 6vh;
+}
+
+@media only screen and (max-width: 850px) {
+  .main_context_text {
+    top: 60%;
+    left: 40%;
+    font-size: 5vh;
+
+  }
+}
+

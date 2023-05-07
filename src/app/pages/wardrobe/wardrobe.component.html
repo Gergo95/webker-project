@@ -1,0 +1,19 @@
+<div class="title">Elérhető gardróbok</div>
+<div class="container">
+  <div class="bed_item">
+    <ul *ngFor="let wardrobe of wardrobes">
+      <div class="item_name">
+        <li>{{wardrobe.name}}</li>
+      </div>
+      <div class="item_image">
+        <li><img src={{wardrobe.photo_url}} width="300px" height="auto" /></li>
+      </div>
+      <div class="item_price">
+        <li>Ár: {{wardrobe.price}}.Ft</li>
+      </div>
+      <button class="item_button">Kosárba rakom</button> 
+    </ul>
+  </div>
+</div>
+
+
